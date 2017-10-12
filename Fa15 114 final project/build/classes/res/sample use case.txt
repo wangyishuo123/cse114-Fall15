@@ -1,0 +1,138 @@
+Welcome to Hangman!
+What is your name? // Get user's name
+> Paul
+
+// Basic turn structure
+
+Paul's turn!
+Paul spins a 300 wedge.
+
+The word is:
+_ _ _ _ _ _ _ _ _   _ _ _ _ _ _ _ _ _ _ _
+Paul: 0
+HAL 9000: 0
+
+What would Paul like to do?
+(1) Guess a Letter (2) Guess the Phrase
+>1
+Input your guessed letter here.
+>a
+
+Paul guesses 1 a.
+Paul adds 300 to his total.
+_ _ _ _ _ _ _ _ _   _ _ _ _ _ _ a _ _ _ _
+Paul: 300
+HAL 9000: 0
+
+
+--Paul gets another turn. 
+
+Paul's turn!
+Paul spins a 400 wedge.
+
+What would Paul like to do?
+(1) Guess a Letter (2) Guess the Phrase
+>1
+Input your guessed letter here.
+>d
+
+Paul guesses d.
+Paul adds 400 to his total.
+
+_ _ _ _ _ _ _ _ _   _ _ _ _ _ _ a d _ _ _
+Paul: 700
+HAL 9000: 0
+
+
+--Paul gets another turn.  
+
+Paul's turn!
+Paul spins a 200 wedge.
+
+What would Paul like to do?
+(1) Guess a Letter (2) Guess the Phrase
+>1
+Input your guessed letter here.
+>a
+
+This letter has already been guessed!
+
+Paul: 700
+HAL 9000: 0
+
+
+--HAL 9000's turn!
+
+HAL 9000's turn.
+HAL 9000 spins a -200 wedge.
+HAL 9000 loses 200 from his total.
+
+_ _ _ _ _ _ _ _ _   _ _ _ _ _ _ a d _ _ _
+Paul: 700
+HAL 9000: 0
+
+
+--Paul's turn!
+
+// Bankrupt wedge output; same for human and AI players
+
+Paul's turn.
+Paul spins Bankruptcy!
+Paul's total drops to 0.
+
+_ _ _ _ _ _ _ _ _   _ _ _ _ _ _ a d _ _ _
+Paul: 0
+HAL 9000: 0
+
+
+-- HAL 9000's turn.
+HAL 9000 spins a 300 wedge.
+
+The word is:
+_ _ _ _ _ _ _ _ _   _ _ _ _ _ _ a d _ _ _
+
+HAL 9000 guesses z.
+HAL 9000's guess is incorrect.
+
+Paul: 0
+HAL 9000: 0
+
+
+-- Paul's turn!
+Paul spins a 300 wedge.
+
+The word is:
+_ _ _ _ _ _ _ _ _   _ _ _ _ _ _ a d _ _ _
+Paul: 0
+HAL 9000: 0
+
+What would Paul like to do?
+(1) Guess a Letter (2) Guess the Phrase
+>1
+Input your guessed letter here.
+>i
+
+Paul guesses 2 i.
+Paul adds 2*300=600 to his total.
+_ _ _ _ _ _ i _ _   _ _ _ _ _ _ a d i _ _
+Paul: 600
+HAL 9000: 0
+
+
+--Paul gets another turn.  
+
+Paul's turn!
+Paul spins a 400 wedge.
+
+What would Paul like to do?
+(1) Guess a Letter (2) Guess the Phrase
+>2
+Input your guessed phrase here.
+>Excessive Overloading
+
+Paul's guess is correct!
+Paul wins!
+
+E x c e s s i v e   O v e r l o a d i n g
+Paul: 1000
+HAL 9000: 0
